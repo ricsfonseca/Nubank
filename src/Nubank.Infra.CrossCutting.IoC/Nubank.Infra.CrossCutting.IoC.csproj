@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nubank.Domain.Core\Nubank.Domain.Core.csproj" />
+    <ProjectReference Include="..\Nubank.Domain\Nubank.Domain.csproj" />
+    <ProjectReference Include="..\Nubank.Infra.CrossCutting.Bus\Nubank.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\Nubank.Infra.Data\Nubank.Infra.Data.csproj" />
+    <ProjectReference Include="..\Nubank.Services\Nubank.Application.csproj" />
+  </ItemGroup>
+
+</Project>
